@@ -314,14 +314,27 @@
   </entry>
 
   <entry id="hist_avg">
-    <type>logical</type>
+    <type>logical(5)</type>
     <category>setup</category>
     <group>setup_nml</group>
     <desc>
       if true, write time-averages (not snapshots)
     </desc>
     <values>
-      <value>.true.</value>
+      <value>.true.,.true.,.true.,.true.,.true.</value>
+    </values>
+  </entry>
+
+  <entry id="hist_time_axis">
+    <type>char</type>
+    <category>setup</category>
+    <group>setup_nml</group>
+    <desc>
+      Position of history file time axis
+    </desc>
+    <valid_values>begin,middle,end</valid_values>
+    <values>
+      <value>middle</value>
     </values>
   </entry>
 
