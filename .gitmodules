@@ -1,6 +1,6 @@
 [submodule "src"]
 	path = src
-	url = https://github.com/ESCOMP/CICE
-        fxtag = cice6_6_3_20260429
+	url = https://github.com/jtruesdal/CICE
+        fxtag = cice6_6_3_20260429_scamfix
         fxrequired = AlwaysRequired
-        fxDONOTUSEurl = https://github.com/ESCOMP/CICE
+        fxDONOTUSEurl = https://github.com/jtruesdal/CICE
